@@ -58,11 +58,13 @@ import Observation
         
         var plotData :[(x: Double, y: Double)] = []
         for i in 1 ... 50 {
-            let x = i
+            let x = log10(Double(i))
             
-            computeSeries(N: i)
-            sleep(2)
-            let y = abs((Double(series1Result)-Double(series3Result))/Double(series3Result))
+            //computeSeries(N: i)
+            let series1 = await SeriesElement().series1Element(N: i).1
+            let series2 = await SeriesElement().series2Element(N: i).1
+            
+            let y = log10((series1-series2)/(abs(series1)+abs(series2)))
             
             let dataPoint: (x: Double, y: Double) = (x: Double(x), y: y)
             plotData.append(contentsOf: [dataPoint])

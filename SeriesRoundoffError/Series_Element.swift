@@ -26,7 +26,7 @@ import Observation
         
         var sum :Double = 0.0
         
-        for i in N...1{
+        for i in (1...N).reversed(){
             
             sum += 1.0/Double(i)
             

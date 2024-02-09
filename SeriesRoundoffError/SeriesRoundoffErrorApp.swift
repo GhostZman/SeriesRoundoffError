@@ -6,12 +6,22 @@
 //
 
 import SwiftUI
+import Observation
 
 @main
 struct SeriesRoundoffErrorApp: App {
+    
+    @State var plotData = PlotClass()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+                ContentView()
+                    .environment(plotData)
+                    .tabItem {
+                        Text("Plot")
+                    }
         }
     }
+
 }
+
