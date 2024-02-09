@@ -14,6 +14,28 @@
 		68EBAF492B76BFEC00BCE4C3 /* SeriesRoundoffErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EBAF482B76BFEC00BCE4C3 /* SeriesRoundoffErrorTests.swift */; };
 		68EBAF532B76BFEC00BCE4C3 /* SeriesRoundoffErrorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EBAF522B76BFEC00BCE4C3 /* SeriesRoundoffErrorUITests.swift */; };
 		68EBAF552B76BFEC00BCE4C3 /* SeriesRoundoffErrorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EBAF542B76BFEC00BCE4C3 /* SeriesRoundoffErrorUITestsLaunchTests.swift */; };
+		68EBAF672B76C13700BCE4C3 /* ChangingPlotParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EBAF612B76C13700BCE4C3 /* ChangingPlotParameters.swift */; };
+		68EBAF682B76C13700BCE4C3 /* ChangingPlotParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EBAF612B76C13700BCE4C3 /* ChangingPlotParameters.swift */; };
+		68EBAF692B76C13700BCE4C3 /* ChangingPlotParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EBAF612B76C13700BCE4C3 /* ChangingPlotParameters.swift */; };
+		68EBAF6A2B76C13700BCE4C3 /* PlotDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EBAF622B76C13700BCE4C3 /* PlotDataClass.swift */; };
+		68EBAF6B2B76C13700BCE4C3 /* PlotDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EBAF622B76C13700BCE4C3 /* PlotDataClass.swift */; };
+		68EBAF6C2B76C13700BCE4C3 /* PlotDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EBAF622B76C13700BCE4C3 /* PlotDataClass.swift */; };
+		68EBAF6D2B76C13700BCE4C3 /* PlotDataStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EBAF632B76C13700BCE4C3 /* PlotDataStruct.swift */; };
+		68EBAF6E2B76C13700BCE4C3 /* PlotDataStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EBAF632B76C13700BCE4C3 /* PlotDataStruct.swift */; };
+		68EBAF6F2B76C13700BCE4C3 /* PlotDataStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EBAF632B76C13700BCE4C3 /* PlotDataStruct.swift */; };
+		68EBAF702B76C13700BCE4C3 /* Series Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EBAF642B76C13700BCE4C3 /* Series Calculator.swift */; };
+		68EBAF712B76C13700BCE4C3 /* Series Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EBAF642B76C13700BCE4C3 /* Series Calculator.swift */; };
+		68EBAF722B76C13700BCE4C3 /* Series Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EBAF642B76C13700BCE4C3 /* Series Calculator.swift */; };
+		68EBAF732B76C13700BCE4C3 /* Series_Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EBAF652B76C13700BCE4C3 /* Series_Element.swift */; };
+		68EBAF742B76C13700BCE4C3 /* Series_Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EBAF652B76C13700BCE4C3 /* Series_Element.swift */; };
+		68EBAF752B76C13700BCE4C3 /* Series_Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EBAF652B76C13700BCE4C3 /* Series_Element.swift */; };
+		68EBAF762B76C13700BCE4C3 /* PlotClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EBAF662B76C13700BCE4C3 /* PlotClass.swift */; };
+		68EBAF772B76C13700BCE4C3 /* PlotClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EBAF662B76C13700BCE4C3 /* PlotClass.swift */; };
+		68EBAF782B76C13700BCE4C3 /* PlotClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EBAF662B76C13700BCE4C3 /* PlotClass.swift */; };
+		68EBAF792B76C14200BCE4C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EBAF382B76BFEB00BCE4C3 /* ContentView.swift */; };
+		68EBAF7A2B76C14300BCE4C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EBAF382B76BFEB00BCE4C3 /* ContentView.swift */; };
+		68EBAF7B2B76C14500BCE4C3 /* SeriesRoundoffErrorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EBAF362B76BFEB00BCE4C3 /* SeriesRoundoffErrorApp.swift */; };
+		68EBAF7C2B76C14600BCE4C3 /* SeriesRoundoffErrorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EBAF362B76BFEB00BCE4C3 /* SeriesRoundoffErrorApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +67,12 @@
 		68EBAF4E2B76BFEC00BCE4C3 /* SeriesRoundoffErrorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeriesRoundoffErrorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68EBAF522B76BFEC00BCE4C3 /* SeriesRoundoffErrorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesRoundoffErrorUITests.swift; sourceTree = "<group>"; };
 		68EBAF542B76BFEC00BCE4C3 /* SeriesRoundoffErrorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesRoundoffErrorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		68EBAF612B76C13700BCE4C3 /* ChangingPlotParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangingPlotParameters.swift; sourceTree = "<group>"; };
+		68EBAF622B76C13700BCE4C3 /* PlotDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlotDataClass.swift; sourceTree = "<group>"; };
+		68EBAF632B76C13700BCE4C3 /* PlotDataStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlotDataStruct.swift; sourceTree = "<group>"; };
+		68EBAF642B76C13700BCE4C3 /* Series Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Series Calculator.swift"; sourceTree = "<group>"; };
+		68EBAF652B76C13700BCE4C3 /* Series_Element.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Series_Element.swift; sourceTree = "<group>"; };
+		68EBAF662B76C13700BCE4C3 /* PlotClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlotClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +124,12 @@
 			isa = PBXGroup;
 			children = (
 				68EBAF362B76BFEB00BCE4C3 /* SeriesRoundoffErrorApp.swift */,
+				68EBAF612B76C13700BCE4C3 /* ChangingPlotParameters.swift */,
+				68EBAF662B76C13700BCE4C3 /* PlotClass.swift */,
+				68EBAF622B76C13700BCE4C3 /* PlotDataClass.swift */,
+				68EBAF632B76C13700BCE4C3 /* PlotDataStruct.swift */,
+				68EBAF642B76C13700BCE4C3 /* Series Calculator.swift */,
+				68EBAF652B76C13700BCE4C3 /* Series_Element.swift */,
 				68EBAF382B76BFEB00BCE4C3 /* ContentView.swift */,
 				68EBAF3A2B76BFEC00BCE4C3 /* Assets.xcassets */,
 				68EBAF3C2B76BFEC00BCE4C3 /* SeriesRoundoffError.entitlements */,
@@ -260,7 +294,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				68EBAF392B76BFEB00BCE4C3 /* ContentView.swift in Sources */,
+				68EBAF6A2B76C13700BCE4C3 /* PlotDataClass.swift in Sources */,
 				68EBAF372B76BFEB00BCE4C3 /* SeriesRoundoffErrorApp.swift in Sources */,
+				68EBAF702B76C13700BCE4C3 /* Series Calculator.swift in Sources */,
+				68EBAF732B76C13700BCE4C3 /* Series_Element.swift in Sources */,
+				68EBAF6D2B76C13700BCE4C3 /* PlotDataStruct.swift in Sources */,
+				68EBAF672B76C13700BCE4C3 /* ChangingPlotParameters.swift in Sources */,
+				68EBAF762B76C13700BCE4C3 /* PlotClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +309,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				68EBAF492B76BFEC00BCE4C3 /* SeriesRoundoffErrorTests.swift in Sources */,
+				68EBAF7B2B76C14500BCE4C3 /* SeriesRoundoffErrorApp.swift in Sources */,
+				68EBAF772B76C13700BCE4C3 /* PlotClass.swift in Sources */,
+				68EBAF792B76C14200BCE4C3 /* ContentView.swift in Sources */,
+				68EBAF742B76C13700BCE4C3 /* Series_Element.swift in Sources */,
+				68EBAF712B76C13700BCE4C3 /* Series Calculator.swift in Sources */,
+				68EBAF6E2B76C13700BCE4C3 /* PlotDataStruct.swift in Sources */,
+				68EBAF6B2B76C13700BCE4C3 /* PlotDataClass.swift in Sources */,
+				68EBAF682B76C13700BCE4C3 /* ChangingPlotParameters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +325,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				68EBAF532B76BFEC00BCE4C3 /* SeriesRoundoffErrorUITests.swift in Sources */,
+				68EBAF6C2B76C13700BCE4C3 /* PlotDataClass.swift in Sources */,
+				68EBAF7C2B76C14600BCE4C3 /* SeriesRoundoffErrorApp.swift in Sources */,
 				68EBAF552B76BFEC00BCE4C3 /* SeriesRoundoffErrorUITestsLaunchTests.swift in Sources */,
+				68EBAF722B76C13700BCE4C3 /* Series Calculator.swift in Sources */,
+				68EBAF752B76C13700BCE4C3 /* Series_Element.swift in Sources */,
+				68EBAF7A2B76C14300BCE4C3 /* ContentView.swift in Sources */,
+				68EBAF6F2B76C13700BCE4C3 /* PlotDataStruct.swift in Sources */,
+				68EBAF692B76C13700BCE4C3 /* ChangingPlotParameters.swift in Sources */,
+				68EBAF782B76C13700BCE4C3 /* PlotClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
