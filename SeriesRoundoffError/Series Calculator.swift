@@ -12,9 +12,8 @@ import Observation
 @Observable class FiniteSeries {
     
     var maxIndex: Int = 1
-    var series1Result: Float = 0.0
-    var series2Result: Float = 0.0
-    var series3Result: Float = 0.0
+    var series1Result: Double = 0.0
+    var series2Result: Double = 0.0
     
     var plotDataModel: PlotDataClass? = nil
     var theText = ""
@@ -23,8 +22,8 @@ import Observation
         
         Task{
             
-            let combinedResults = await withTaskGroup(of: (Int, Float).self,
-                                                      returning:[(Int,Float)].self,
+            let combinedResults = await withTaskGroup(of: (Int, Double).self,
+                                                      returning:[(Int,Double)].self,
                                                       body: { taskGroup in
                 
                 taskGroup.addTask{
@@ -39,13 +38,7 @@ import Observation
                     return series2
                 }
                 
-                taskGroup.addTask{
-                    let series3 = await SeriesElement().series3Element(N: N)
-                    
-                    return series3
-                }
-                
-                var combinedTaskResults :[(Int, Float)] = []
+                var combinedTaskResults :[(Int, Double)] = []
                 for await result in taskGroup {
                     combinedTaskResults.append(result)
                 }
@@ -54,7 +47,6 @@ import Observation
             let sortedCombinedResults = combinedResults.sorted(by: { $0.0 < $1.0 })
             self.series1Result = sortedCombinedResults[0].1
             self.series2Result = sortedCombinedResults[1].1
-            self.series3Result = sortedCombinedResults[2].1
         }
     }
     
